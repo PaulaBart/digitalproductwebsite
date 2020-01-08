@@ -1,0 +1,791 @@
+/* CSS STYLESHEET */
+
+
+
+/* NAVIGATION */
+
+nav {    
+    position: fixed;
+    width: 100%;
+    background-color: #eeea5f; 
+    font-size: 25px;
+    font-family: "helvetica"
+    
+}
+
+
+nav ul {
+    text-align: center;
+    letter-spacing: 5px;}
+
+nav ul li {
+    display: inline;
+    margin: 100px; 
+} 
+
+ nav a:link {
+    text-decoration: none;
+    color: #000
+}
+
+nav a:visited {
+   color: #000
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out; 
+    } 
+
+/* END OF NAVIGATION */
+
+
+/* INTRO */
+
+.intro{
+    display: grid;
+    grid-template-columns: 5% 45% 5% 35% 5%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+}
+
+.intro h1{
+    font-family: "Source Sans Variable";
+    font-size: 40px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.intro p{
+    font-family: "Source Sans Variable";
+    font-size: 30px;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.intro img{
+    grid-column: 4;
+    grid-row: 2 /3;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* END OF INTRO */
+
+/* HEADER */
+
+.header{
+    
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%
+}
+.header img {
+    width: 50%;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 250px;
+    
+}
+
+
+
+/* END OF HEADER */
+
+
+
+/* ARI ILLUSTRATION */
+
+.ari{
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+}
+
+.ariimg {
+    grid-column: 2;
+    grid-row: 2/4;
+    height: 700px;
+}
+
+.ari p{
+    font-family: "Source Sans Variable";
+    font-size: 25px;
+}
+.arip1 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.arip2 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 100px;
+}
+
+.arip3 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 290px;
+}
+
+.arip4 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 420px;
+}
+
+.ari button {
+    background-color: #eeea5f;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    grid-column: 4;
+    grid-row: 3;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.ari a{
+    text-decoration: none;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.ari button:hover{
+    color: white;
+}
+/* END OF ARI ILLUSTRATION */
+
+
+/* YEEZY ILLUSTRATION */
+
+.yeezy {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezyimg {
+    grid-column: 2;
+    grid-row: 2/4;
+    height: 700px;
+}
+
+.yeezy p{
+    font-family: "Source Sans Variable";
+    font-size: 25px;
+}
+.yeezyp1 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.yeezyp2 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 100px;
+}
+
+.yeezyp3 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 260px;
+}
+
+.yeezyp4 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 450px;
+}
+
+.yeezy button {
+    background-color: #eeea5f;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    grid-column: 4;
+    grid-row: 3;
+    margin-top: 420px;
+    margin-left: 100px;
+}
+
+.yeezy a{
+    text-decoration: none;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.yeezy button:hover{
+    color: white;
+}
+/* END OF YEEZY ILLUSTRATION */
+
+
+/* JB ILLUSTRATION */
+
+.jb {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbimg {
+    grid-column: 2;
+    grid-row: 2/4;
+    height: 700px;
+}
+
+.jb p{
+    font-family: "Source Sans Variable";
+    font-size: 25px;
+}
+.jbp1 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.jbp2 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 100px;
+}
+
+.jbp3 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 270px;
+}
+
+.jbp4 {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 450px;
+}
+
+.jb button {
+    background-color: #eeea5f;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    grid-column: 4;
+    grid-row: 3;
+    margin-top: 420px;
+    margin-left: 100px;
+}
+
+.jb a{
+    text-decoration: none;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.jb button:hover{
+    color: white;
+}
+/* END OF JB ILLUSTRATION */
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #eeea5f;
+    }
+.footer h1{
+    font-family: "Source Sans Variable";
+    font-size: 35px;
+}
+.footer button {
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.footer a{
+    text-decoration: none;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.footer button:hover{
+    color: #eeea5f;
+}
+
+.footer h2{
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+}
+
+.social {
+	position: relative;
+	margin: 0 auto;
+}
+
+.social li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.social a:link {
+	border-bottom: none;}
+
+.social img {
+    height: 60px;
+	}
+	
+ .social a:hover img {
+		opacity: 1.0;
+		border-bottom: none;
+		transition: all 0.3s ease-in-out; 
+				transform:scale(1.1);}
+
+
+
+/* END OF FOOTER */
+
+/* ARI PROCESS */
+
+.arijumper {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.arijumper img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.arijumper p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+
+
+.arineck {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.arineck img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.arineck p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+.ariface1 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.ariface1 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.ariface1 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.ariface2 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.ariface2 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.ariface2 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.arihair {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.arihair img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.arihair p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.aribg {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.aribg img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.aribg p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+/* END OF ARI PROCESS */
+
+/* YEEZY PROCESS */
+
+.yeezysuit {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezysuit img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezysuit p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+
+
+.yeezybeard {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezybeard img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezybeard p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+.yeezyface1 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezyface1 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezyface1 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.yeezyface2 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezyface2 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezyface2 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.yeezyhair {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.yeezyhair img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezyhair p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.yeezybg {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.yeezybg img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.yeezybg p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+/* END OF YEEZY PROCESS */
+
+/* JB PROCESS */
+
+.jbjacket {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbjacket img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbjacket p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+
+
+.jbneck {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbneck img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbneck p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+
+.jbface1 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbface1 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbface1 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.jbface2 {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbface2 img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbface2 p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.jbhair {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+}
+
+.jbhair img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbhair p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+
+
+.jbbg {
+    display: grid;
+    grid-template-columns: 5% 45% 5% 30% 10%;
+    grid-template-rows: 20% 20% 5% 35% 20%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.jbbg img {
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+}
+
+.jbbg p {
+    font-family: "Source Sans Variable";
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 3; 
+}
+
+/* END OF JB PROCESS */
+
